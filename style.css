@@ -1,0 +1,128 @@
+*{
+	font-family: 'Crete Round', serif;	
+	padding: 0;
+	margin: 0;
+}
+.headings{
+	font-size: 300%;
+	text-align: center;
+	padding: 3px;
+	margin-bottom: 60px !important;
+	text-transform: uppercase;
+	margin: 100px;
+}
+                 /* navigation */
+#name{
+	font-size: 1.20em;
+	display: inline-block;
+	text-transform: uppercase;
+	text-decoration: blink;
+	color: #FFC300;
+	margin: auto;
+}
+@media (max-width: 440px)
+{
+	#name{
+		font-size: 1.2em;
+	}
+	.navbar-brand img{
+		display: none;
+	}
+	.headings{
+		font-size: 2em;
+	}
+}
+@media (min-width: 441px)
+{
+	#name{
+		margin-left: 50px !important;
+	}
+}
+.nav-sec{
+	width: 100%;
+	border-bottom:3px solid #FFC300 !important; 
+}
+#navbar-toggler-icon{
+	color :#FFC300 ;
+	margin: 1px;
+	border-color: #FFC300;
+
+}
+#navbar-toggler:hover :active{
+	color: #FFC300;
+}
+#nav a{
+	color: #FFC300;
+	padding: 15px;
+}
+#nav a:hover{
+	background-color: #FFC300;
+	color:black;
+}
+.nav-link{
+	text-align: center;
+}
+
+              /*CAROUSEL */
+
+.img-fluid{
+	width: 100%;
+	height: auto;
+}
+
+           /*WHAT I DO */
+
+ .col-md{
+ 	color: #FFC300;
+ 	border:3px dotted #FFC300;
+ 	margin: 10px;
+ 	border-radius: 50px;
+ }
+ .idoimg{
+ 	width: 90px;
+ 	height: auto;
+ 	display: block;
+ 	margin-left: auto;
+ 	margin-right: auto;
+ 	margin-top: 1.5em;
+ }
+ .idocol p{
+ 	text-align: center;
+ 	overflow: auto;
+ }
+ .idocol a{
+ 	display: block;
+ 	width: 40%;
+ 	padding: 1px;
+ 	border-radius: 5px;
+ 	border: 2px solid ;
+ 	background-color: gray;
+ 	color: white;
+ 	margin-bottom: 10px;
+ 	margin-left: auto;
+ 	margin-right: auto;
+ 	text-align: center;
+ }
+ 
+ .idocol a:hover ,.idolcol a:active{
+ 	background-color: #FFC300;
+ 	color: #141314;
+
+ }
+
+ /*social*/
+
+ .fa{
+ 	padding-bottom: 50px;
+ 	color: #FFC300;
+ }
+ .fa a:hover{
+ 	color: #141314;
+ 	border:2px solid #FFC300;
+ 	font-size: 1em;
+ 	margin-left: 10px;
+ 	text-align: center;
+ 	text-decoration: none !important;
+ }
+
+
